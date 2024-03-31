@@ -1,0 +1,135 @@
+input {
+    /* width: 30%; */
+    padding: 18px 40px;
+    border-radius: 7px;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+label{
+    margin-top: 20px;
+}
+#name, #email, #password{
+    width: 27%;
+}
+body{
+    position: relative;
+}
+
+.an {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: #D0D5DD;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: -20px;
+}
+.log {
+    width: 33%;
+    background-color: #0B4F3E;
+    border: none;
+    border-radius: 5px;
+    height: 54px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.enter {
+    font-family: sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.enter input {
+    border: 1px solid #D0D5DD;
+    color: #D0D5DD;
+}
+
+/* .get {
+    width: 700px;
+    height: 900px;
+    background-color: blue;
+} */
+
+.entre,
+.entry {
+    margin-top: 30px;
+}
+
+.entre input {
+    border: 1px solid black;
+    color: #D0D5DD;
+}
+
+.entry input {
+    border: 1px solid black;
+}
+
+.og {
+    width: 33%;
+    border: 2px solid #D0D5DD;
+    border-radius: 5px;
+    height: 54px;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.with {
+    width: 33%;
+    border: 2px solid #D0D5DD;
+    border-radius: 5px;
+    height: 54px;
+    margin-top: 20px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.with img {
+    margin-right: 10px;
+}
+.you img{
+    display: flex;
+    margin-right: 10px;
+}
+
+.you a {
+    color: #0B4F3E;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.you {
+    align-items: center;
+    flex-wrap:wrap;
+    display: flex;  
+   text-align: center;
+   color: #D0D5DD;
+   font-size: 17px;
+   font-weight: 500;
+}
+
+.checkbox {
+    align-items: center;
+    flex-wrap:wrap;
+    display: flex;
+}
+
+.checkbox a {
+    margin-left: 90px;
+    text-decoration: none;
+    color: #0B4F3E;
+}
